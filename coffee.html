@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>OSKOLOK — Specialty Coffee Roastery &amp; Bar</title>
+<meta name="description" content="OSKOLOK — авторская specialty-кофейня с собственной обжаркой. Редкие сорта, пространство из тёплого стекла и латуни, где хочется задержаться.">
+<meta name="keywords" content="specialty coffee, кофейня, авторская обжарка, spesialty кофе, кофе на вынос, третья волна кофе">
+<meta name="author" content="OSKOLOK Coffee Roastery">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://oskolok.coffee/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OSKOLOK">
+<meta property="og:title" content="OSKOLOK — Осколок хорошего утра">
+<meta property="og:description" content="Авторская specialty-кофейня. Редкие сорта, собственная обжарка и пространство, где хочется задержаться.">
+<meta property="og:image" content="https://oskolok.coffee/assets/og-cover.jpg">
+<meta property="og:url" content="https://oskolok.coffee/">
+<meta property="og:locale" content="ru_RU">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OSKOLOK — Specialty Coffee Roastery">
+<meta name="twitter:description" content="Редкие сорта, собственная обжарка и пространство, где хочется задержаться.">
+<meta name="twitter:image" content="https://oskolok.coffee/assets/og-cover.jpg">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2246%22 fill=%22%231b1815%22/><path d=%22M30 55 Q50 20 70 55 Q50 75 30 55Z%22 fill=%22%23c98a4b%22/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="coffee.css">
+
+<!-- LocalBusiness Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "OSKOLOK",
+  "image": "https://oskolok.coffee/assets/og-cover.jpg",
+  "description": "Авторская specialty-кофейня с собственной обжаркой зерна и залом из тёплого стекла и латуни.",
+  "servesCuisine": "Coffee, Specialty Coffee, Bakery",
+  "priceRange": "₽₽₽",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул.季 Мастерская, 14",
+    "addressLocality": "Москва",
+    "postalCode": "115035",
+    "addressCountry": "RU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 55.7449,
+    "longitude": 37.6297
+  },
+  "url": "https://oskolok.coffee/",
+  "telephone": "+7-495-000-00-00",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "22:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "23:00"
+    }
+  ],
+  "sameAs": [
+    "https://instagram.com/oskolok.coffee",
+    "https://t.me/oskolokcoffee"
+  ]
+}
+</script>
+
+<!-- Restaurant Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "OSKOLOK",
+  "servesCuisine": "Coffee",
+  "hasMenu": "https://oskolok.coffee/#menu",
+  "acceptsReservations": "True"
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Где вы берёте зелёное зерно?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Работаем напрямую с фермами в Эфиопии, Колумбии и Панаме через отношения, выстроенные за несколько лет закупок. Каждый лот прослеживается до конкретного участка."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно забронировать столик заранее?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, бронирование доступно через сайт или по телефону. Рекомендуем бронировать за 1–2 дня на вечер пятницы и выходные."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Есть ли безлактозные и растительные альтернативы?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, у нас овсяное, миндальное и кокосовое молоко без дополнительной наценки на всех напитках."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://oskolok.coffee/" },
+    { "@type": "ListItem", "position": 2, "name": "Меню", "item": "https://oskolok.coffee/#menu" },
+    { "@type": "ListItem", "position": 3, "name": "Интерьер", "item": "https://oskolok.coffee/#interior" },
+    { "@type": "ListItem", "position": 4, "name": "Контакты", "item": "https://oskolok.coffee/#contacts" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ═══════════════════════════ SCROLL PROGRESS ═══════════════════════════ -->
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__fill" id="scrollFill"></div></div>
+
+<!-- ═══════════════════════════ AMBIENT LIGHT LAYER ═══════════════════════════ -->
+<div class="ambient-layer" aria-hidden="true">
+  <div class="ambient-glow ambient-glow--1"></div>
+  <div class="ambient-glow ambient-glow--2"></div>
+  <div class="ambient-glow ambient-glow--3"></div>
+</div>
+
+<!-- ═══════════════════════════ NAVIGATION ═══════════════════════════ -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark" aria-label="OSKOLOK — на главную">
+      <svg viewBox="0 0 48 48" class="nav__mark-glyph" aria-hidden="true">
+        <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path d="M14 26 Q24 10 34 26 Q24 36 14 26Z" fill="currentColor"/>
+      </svg>
+      <span class="nav__mark-text">OSKOLOK</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Основная навигация">
+      <a href="#story" class="nav__link"><span>История</span></a>
+      <a href="#drinks" class="nav__link"><span>Напитки</span></a>
+      <a href="#origin" class="nav__link"><span>Происхождение</span></a>
+      <a href="#interior" class="nav__link"><span>Пространство</span></a>
+      <a href="#menu" class="nav__link"><span>Меню</span></a>
+      <a href="#contacts" class="nav__link"><span>Контакты</span></a>
+    </nav>
+
+    <button class="nav__cta magnetic" data-magnetic>
+      <span>Забронировать</span>
+    </button>
+
+    <button class="nav__burger" id="navBurger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav class="mobile-menu__links" aria-label="Мобильная навигация">
+    <a href="#story">История</a>
+    <a href="#drinks">Напитки</a>
+    <a href="#origin">Происхождение</a>
+    <a href="#interior">Пространство</a>
+    <a href="#menu">Меню</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <button class="mobile-menu__cta">Забронировать столик</button>
+</div>
+
+<main id="top">
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     01 — HERO
+═══════════════════════════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero__glass-shard hero__glass-shard--a" aria-hidden="true"></div>
+  <div class="hero__glass-shard hero__glass-shard--b" aria-hidden="true"></div>
+
+  <div class="hero__grain" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow reveal-line">
+      <span class="hero__eyebrow-dot"></span>
+      Specialty coffee roastery — Москва
+    </p>
+
+    <h1 class="hero__title">
+      <span class="reveal-line"><span class="reveal-word">Кофе,</span> <span class="reveal-word">который</span></span>
+      <span class="reveal-line"><span class="reveal-word">становится</span> <span class="reveal-word">частью</span></span>
+      <span class="reveal-line"><span class="reveal-word hero__title-accent">вашего</span> <span class="reveal-word hero__title-accent">дня</span><span class="reveal-word hero__title-accent">.</span></span>
+    </h1>
+
+    <p class="hero__subtitle reveal-line">
+      Редкие сорта, собственная обжарка и пространство,<br class="hero__subtitle-break">
+      где хочется задержаться дольше, чем на одну чашку.
+    </p>
+
+    <div class="hero__actions reveal-line">
+      <a href="#menu" class="btn btn--primary magnetic" data-magnetic>
+        <span>Посмотреть меню</span>
+      </a>
+      <a href="#booking" class="btn btn--ghost magnetic" data-magnetic>
+        <span>Забронировать столик</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__visual" aria-hidden="true">
+    <div class="hero__cup-glow"></div>
+    <div class="hero__cup-frame">
+      <img src="img/1.jpg" alt="" class="hero__cup-photo">
+      <svg class="hero__steam" viewBox="0 0 200 160" preserveAspectRatio="none">
+        <path class="hero__steam-path hero__steam-path--1" d="M70 140 C60 100 90 90 80 50 C72 20 95 8 88 -20" stroke="rgba(255,255,255,0.45)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path class="hero__steam-path hero__steam-path--2" d="M120 140 C130 100 100 90 112 45" stroke="rgba(255,255,255,0.32)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">
+    <span class="hero__scroll-line"></span>
+    <span class="hero__scroll-text">Листайте</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     02 — ИСТОРИЯ БРЕНДА
+═══════════════════════════════════════════════════════════════════ -->
+<section class="story" id="story">
+  <div class="story__wave-top" aria-hidden="true"></div>
+
+  <div class="story__container">
+    <div class="story__intro">
+      <span class="eyebrow reveal-on-scroll">— История</span>
+      <h2 class="story__heading reveal-on-scroll">
+        Название родилось<br>
+        из одной трещины<br>
+        на обжарочном барабане.
+      </h2>
+    </div>
+
+    <div class="story__editorial">
+      <figure class="story__photo story__photo--large reveal-on-scroll">
+        <div class="story__photo-frame">
+          <img src="img/2.jpg" alt="Обжарщик проверяет зерно на цвет во время обжарки" loading="lazy" width="1400" height="1750">
+        </div>
+        <figcaption>Первая обжарочная — гараж на Шаболовке, 2019</figcaption>
+      </figure>
+
+      <div class="story__text-block reveal-on-scroll">
+        <p class="story__lede">
+          В 2019 году в гаражном боксе на Шаболовке стоял один barrel-обжарщик на 5 кг и трещина через весь корпус — след от переезда через полстраны.
+        </p>
+        <p>
+          Мастер советовал списать барабан. Но зерно из него выходило чище, чем из нового: трещина случайно выровняла поток воздуха. Так брак стал фирменным профилем обжарки — <em>лёгкая асимметрия, которая работает лучше симметрии.</em>
+        </p>
+        <p>
+          Через пять лет тот же принцип определяет всё в OSKOLOK: пространство, меню, форму чашки. Мы не сглаживаем неровности. Мы ищем ту единственную, что делает вкус или деталь узнаваемыми.
+        </p>
+
+        <blockquote class="story__quote">
+          <p>«Идеальная форма — скучная форма. Мы обжигаем зерно и проектируем пространство одинаково: ищем трещину, которая станет голосом.»</p>
+          <cite>— Дана Реброва, со-основательница и шеф-обжарщик</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="story__timeline">
+      <div class="story__timeline-track" aria-hidden="true"></div>
+
+      <div class="story__timeline-item reveal-on-scroll">
+        <span class="story__timeline-year">2019</span>
+        <p class="story__timeline-text">Первый барабан, гараж на Шаболовке, 40 кг зерна в месяц.</p>
+      </div>
+      <div class="story__timeline-item reveal-on-scroll">
+        <span class="story__timeline-year">2021</span>
+        <p class="story__timeline-text">Прямые контракты с тремя фермами в Эфиопии и Панаме, отказ от посредников.</p>
+      </div>
+      <div class="story__timeline-item reveal-on-scroll">
+        <span class="story__timeline-year">2023</span>
+        <p class="story__timeline-text">Открытие зала на Мастерской — архитектура вокруг той же идеи асимметрии.</p>
+      </div>
+      <div class="story__timeline-item reveal-on-scroll">
+        <span class="story__timeline-year">2026</span>
+        <p class="story__timeline-text">1,2 тонны обжарки в месяц, собственная школа бариста при кофейне.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     03 — АВТОРСКИЕ НАПИТКИ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="drinks" id="drinks">
+  <div class="drinks__header">
+    <span class="eyebrow reveal-on-scroll">— Авторская линейка</span>
+    <h2 class="drinks__heading reveal-on-scroll">Пять напитков.<br>Ни одного случайного.</h2>
+    <p class="drinks__intro reveal-on-scroll">
+      Каждый рецепт живёт минимум полгода в тестах, прежде чем попасть в меню.
+      Ниже — те, что остались.
+    </p>
+  </div>
+
+  <div class="drinks__gallery">
+
+    <article class="drink-card reveal-on-scroll" data-drink="1">
+      <div class="drink-card__glass">
+        <div class="drink-card__image-wrap">
+          <img src="img/3.jpg" alt="Oskolok Signature — эспрессо с апельсиновым безе и дымным сиропом" loading="lazy" width="1200" height="1500" class="drink-card__image">
+          <div class="drink-card__pour" aria-hidden="true"></div>
+        </div>
+        <div class="drink-card__body">
+          <span class="drink-card__index">Oskolok Signature</span>
+          <h3 class="drink-card__name">Треснутый апельсин</h3>
+          <p class="drink-card__desc">Эспрессо на панамской гейше, апельсиновое безе, дымный кленовый сироп. Подаётся с расколотой карамельной пластиной.</p>
+          <div class="drink-card__meta">
+            <span>180 мл</span><span class="drink-card__dot">·</span><span>380 ₽</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="drink-card reveal-on-scroll" data-drink="2">
+      <div class="drink-card__glass">
+        <div class="drink-card__image-wrap">
+          <img src="img/4.jpg" alt="Latte Оскол — латте на овсяном молоке с копчёной солью" loading="lazy" width="1200" height="1500" class="drink-card__image">
+          <div class="drink-card__pour" aria-hidden="true"></div>
+        </div>
+        <div class="drink-card__body">
+          <span class="drink-card__index">Oskolok Signature</span>
+          <h3 class="drink-card__name">Латте на камне</h3>
+          <p class="drink-card__desc">Овсяное молоко собственной варки, эспрессо-бленд с нотами фундука, щепоть копчёной морской соли на пенке.</p>
+          <div class="drink-card__meta">
+            <span>240 мл</span><span class="drink-card__dot">·</span><span>350 ₽</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="drink-card reveal-on-scroll" data-drink="3">
+      <div class="drink-card__glass">
+        <div class="drink-card__image-wrap">
+          <img src="img/5.jpg" alt="Холодный настой на эфиопской натуралке с ягодным шраб" loading="lazy" width="1200" height="1500" class="drink-card__image">
+          <div class="drink-card__pour" aria-hidden="true"></div>
+        </div>
+        <div class="drink-card__body">
+          <span class="drink-card__index">Oskolok Signature</span>
+          <h3 class="drink-card__name">Ягодный разлом</h3>
+          <p class="drink-card__desc">18-часовой холодный настой на эфиопской натуральной обработке, слой чёрносмородинового шраба, тоник.</p>
+          <div class="drink-card__meta">
+            <span>300 мл</span><span class="drink-card__dot">·</span><span>420 ₽</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="drink-card reveal-on-scroll" data-drink="4">
+      <div class="drink-card__glass">
+        <div class="drink-card__image-wrap">
+          <img src="img/6.jpg" alt="Матча с кедровым молоком и золотой пыльцой" loading="lazy" width="1200" height="1500" class="drink-card__image">
+          <div class="drink-card__pour" aria-hidden="true"></div>
+        </div>
+        <div class="drink-card__body">
+          <span class="drink-card__index">Oskolok Signature</span>
+          <h3 class="drink-card__name">Матча и кедр</h3>
+          <p class="drink-card__desc">Церемониальная матча, взбитая на кедровом молоке, лёгкий тон печёного мёда, съедобное золото по кромке.</p>
+          <div class="drink-card__meta">
+            <span>220 мл</span><span class="drink-card__dot">·</span><span>390 ₽</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="drink-card reveal-on-scroll" data-drink="5">
+      <div class="drink-card__glass">
+        <div class="drink-card__image-wrap">
+          <img src="img/7.jpg" alt="Флэт уайт на карамельном бленде с обожжённой корочкой" loading="lazy" width="1200" height="1500" class="drink-card__image">
+          <div class="drink-card__pour" aria-hidden="true"></div>
+        </div>
+        <div class="drink-card__body">
+          <span class="drink-card__index">Oskolok Signature</span>
+          <h3 class="drink-card__name">Обожжённая карамель</h3>
+          <p class="drink-card__desc">Флэт уайт на бленде с нотами карамели и печёного яблока, тонкая корочка жжёного сахара, разбиваемая ложкой.</p>
+          <div class="drink-card__meta">
+            <span>200 мл</span><span class="drink-card__dot">·</span><span>360 ₽</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     04 — SPECIALTY COFFEE / ПРОИСХОЖДЕНИЕ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="origin" id="origin">
+  <div class="origin__container">
+    <div class="origin__header">
+      <span class="eyebrow reveal-on-scroll">— От фермы до чашки</span>
+      <h2 class="origin__heading reveal-on-scroll">
+        Путь зерна занимает<br>
+        восемь месяцев<br>
+        и четыре континента.
+      </h2>
+    </div>
+
+    <div class="origin__path">
+      <div class="origin__path-line" aria-hidden="true"></div>
+
+      <div class="origin__stage reveal-on-scroll" data-stage="01">
+        <div class="origin__stage-marker">01</div>
+        <div class="origin__stage-content">
+          <h3>Ферма</h3>
+          <p class="origin__stage-place">Génica Estate, Yirgacheffe, Эфиопия — высота 1 950–2 100 м</p>
+          <p class="origin__stage-desc">Сбор вручную, только спелые вишни. Одна и та же семья фермеров с 2021 года — мы видим урожай на корню за три месяца до закупки.</p>
+        </div>
+      </div>
+
+      <div class="origin__stage reveal-on-scroll" data-stage="02">
+        <div class="origin__stage-marker">02</div>
+        <div class="origin__stage-content">
+          <h3>Обработка</h3>
+          <p class="origin__stage-place">Натуральная сушка на приподнятых столах, 21 день</p>
+          <p class="origin__stage-desc">Ягода сохнет целиком на солнце, ежедневно переворачивается вручную. Так рождаются ягодные и винные тона в чашке.</p>
+        </div>
+      </div>
+
+      <div class="origin__stage reveal-on-scroll" data-stage="03">
+        <div class="origin__stage-marker">03</div>
+        <div class="origin__stage-content">
+          <h3>Обжарка</h3>
+          <p class="origin__stage-place">Собственная обжарочная на Мастерской, партии по 12 кг</p>
+          <p class="origin__stage-desc">Профиль строится под конкретный лот, не под сорт вообще. Каждая партия — 9–11 минут, кривая записывается и хранится.</p>
+        </div>
+      </div>
+
+      <div class="origin__stage reveal-on-scroll" data-stage="04">
+        <div class="origin__stage-marker">04</div>
+        <div class="origin__stage-content">
+          <h3>Чашка</h3>
+          <p class="origin__stage-place">Не позднее 21 дня после обжарки</p>
+          <p class="origin__stage-desc">Зерно старше трёх недель уходит в бленд для кухни, не в фильтр-меню. Свежесть мы не обсуждаем — мы её считаем днями.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="origin__profile-card reveal-on-scroll">
+      <div class="origin__profile-visual" aria-hidden="true">
+        
+        
+      </div>
+            <div class="origin__stage-image">
+  <img src="img/8.jpg" alt="Описание фото" loading="lazy" width="800" height="600">
+            </div>
+      <div class="origin__profile-text">
+        <span class="origin__profile-label">Вкусовой профиль лота №0426</span>
+        <h3>Génica Natural</h3>
+        <ul class="origin__flavor-tags">
+          <li>Клубника</li><li>Красное вино</li><li>Тёмный шоколад</li><li>Жасмин</li><li>Долгое послевкусие</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     05 — ИНТЕРЬЕР
+═══════════════════════════════════════════════════════════════════ -->
+<section class="interior" id="interior">
+  <div class="interior__header">
+    <span class="eyebrow reveal-on-scroll">— Пространство</span>
+    <h2 class="interior__heading reveal-on-scroll">Зал спроектирован<br>вокруг одной трещины в бетоне.</h2>
+  </div>
+
+  <div class="interior__gallery">
+    <figure class="interior__frame interior__frame--tall reveal-on-scroll">
+      <img src="img/9.jpg" alt="Основной зал кофейни с латунными светильниками и барной стойкой" loading="lazy" width="1400" height="1866">
+      <figcaption>Барная стойка, латунь и обожжённый дуб</figcaption>
+    </figure>
+    <figure class="interior__frame reveal-on-scroll">
+      <img src="img/11.jpg" alt="Зона для чтения у окна с мягким дневным светом" loading="lazy" width="1200" height="900">
+      <figcaption>Тихая зона, восточное крыло</figcaption>
+    </figure>
+    <figure class="interior__frame reveal-on-scroll">
+      <img src="img/12.jpg" alt="Обжарочный цех, видимый через стеклянную перегородку" loading="lazy" width="1200" height="900">
+      <figcaption>Обжарочная за стеклом</figcaption>
+    </figure>
+    <figure class="interior__frame interior__frame--tall reveal-on-scroll">
+      <img src="img/13.jpg" alt="Вечерний свет в зале кофейни, тёплые латунные лампы" loading="lazy" width="1400" height="1866">
+      <figcaption>Вечерний свет, латунные подвесы ручной ковки</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     06 — ПОЧЕМУ СЮДА ВОЗВРАЩАЮТСЯ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="return" id="return">
+  <div class="return__container">
+    <div class="return__header">
+      <span class="eyebrow reveal-on-scroll">— В цифрах, не в лозунгах</span>
+      <h2 class="return__heading reveal-on-scroll">Мы не говорим «у нас лучший кофе».<br>Вот факты — решайте сами.</h2>
+    </div>
+
+    <div class="return__facts">
+      <div class="return__fact reveal-on-scroll">
+        <span class="return__fact-number" data-count="21">0</span>
+        <span class="return__fact-unit">день</span>
+        <p class="return__fact-label">максимальный возраст зерна в фильтр-меню — считаем от даты обжарки, не от закупки</p>
+      </div>
+      <div class="return__fact reveal-on-scroll">
+        <span class="return__fact-number" data-count="47">0</span>
+        <span class="return__fact-unit">секунд</span>
+        <p class="return__fact-label">среднее время от заказа до эспрессо в руках — мы засекаем это каждую смену</p>
+      </div>
+      <div class="return__fact reveal-on-scroll">
+        <span class="return__fact-number" data-count="6">0</span>
+        <span class="return__fact-unit">ферм</span>
+        <p class="return__fact-label">прямых поставщиков без посредников — с каждым личный контракт и визит на участок</p>
+      </div>
+      <div class="return__fact reveal-on-scroll">
+        <span class="return__fact-number" data-count="180">0</span>
+        <span class="return__fact-unit">часов</span>
+        <p class="return__fact-label">тестовой обжарки на каждый новый сорт, прежде чем он попадёт в постоянное меню</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     07 — КОМАНДА
+═══════════════════════════════════════════════════════════════════ -->
+<section class="team" id="team">
+  <div class="team__header">
+    <span class="eyebrow reveal-on-scroll">— Люди за стойкой</span>
+    <h2 class="team__heading reveal-on-scroll">Четыре человека,<br>с которыми вы, скорее всего, встретитесь.</h2>
+  </div>
+
+  <div class="team__grid">
+    <article class="team-card reveal-on-scroll">
+      <div class="team-card__photo">
+        <img src="img/14.jpg" alt="Дана Реброва, шеф-обжарщик" loading="lazy" width="800" height="1000">
+      </div>
+      <div class="team-card__info">
+        <h3>Дана Реброва</h3>
+        <span class="team-card__role">Со-основательница, шеф-обжарщик</span>
+        <p>Строит профиль обжарки под каждый лот лично. В индустрии с 2014 года, начинала на Q-грейдера в Краснодаре.</p>
+      </div>
+    </article>
+
+    <article class="team-card reveal-on-scroll">
+      <div class="team-card__photo">
+        <img src="img/15.jpg" alt="Марк Осколков, шеф-бариста" loading="lazy" width="800" height="1000">
+      </div>
+      <div class="team-card__info">
+        <h3>Марк Осколков</h3>
+        <span class="team-card__role">Шеф-бариста</span>
+        <p>Разрабатывает рецептуру авторской линейки. Финалист Russian Coffee in Good Spirits, 2024.</p>
+      </div>
+    </article>
+
+    <article class="team-card reveal-on-scroll">
+      <div class="team-card__photo">
+        <img src="img/16.jpg" alt="Илина Су, бариста и тренер" loading="lazy" width="800" height="1000">
+      </div>
+      <div class="team-card__info">
+        <h3>Илина Су</h3>
+        <span class="team-card__role">Старший бариста, тренер</span>
+        <p>Ведёт внутреннюю школу для новых бариста — от калибровки помола до сенсорики.</p>
+      </div>
+    </article>
+
+    <article class="team-card reveal-on-scroll">
+      <div class="team-card__photo">
+        <img src="img/17.jpg" alt="Глеб Артюхов, бариста утренней смены" loading="lazy" width="800" height="1000">
+      </div>
+      <div class="team-card__info">
+        <h3>Глеб Артюхов</h3>
+        <span class="team-card__role">Бариста утренней смены</span>
+        <p>Помнит заказы постоянных гостей наизусть — по собственным подсчётам, больше двухсот человек.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     08 — МЕНЮ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="menu" id="menu">
+  <div class="menu__header">
+    <span class="eyebrow reveal-on-scroll">— Меню</span>
+    <h2 class="menu__heading reveal-on-scroll">Полная карта.</h2>
+  </div>
+
+  <div class="menu__tabs" role="tablist" aria-label="Категории меню">
+    <button class="menu__tab is-active" role="tab" aria-selected="true" data-menu-tab="espresso">Espresso</button>
+    <button class="menu__tab" role="tab" aria-selected="false" data-menu-tab="filter">Filter</button>
+    <button class="menu__tab" role="tab" aria-selected="false" data-menu-tab="signature">Signature</button>
+    <button class="menu__tab" role="tab" aria-selected="false" data-menu-tab="matcha">Matcha &amp; Tea</button>
+    <button class="menu__tab" role="tab" aria-selected="false" data-menu-tab="food">Desserts &amp; Bakery</button>
+  </div>
+
+  <div class="menu__panels">
+
+    <div class="menu__panel is-active" data-menu-panel="espresso" role="tabpanel">
+      <div class="menu__items">
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Эспрессо</h3><span class="menu-item__price">220 ₽</span></div>
+          <p>Сезонный бленд обжарки этой недели, 18 г / 36 мл, 27 сек.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Американо</h3><span class="menu-item__price">240 ₽</span></div>
+          <p>Двойной эспрессо, горячая вода отдельно, чтобы не терять крему.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Капучино</h3><span class="menu-item__price">310 ₽</span></div>
+          <p>Молочная пенка 1 см, микропена без крупных пузырей.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Флэт уайт</h3><span class="menu-item__price">330 ₽</span></div>
+          <p>Двойной ристретто, бархатная текстура, без рисунка сверху.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Кортадо</h3><span class="menu-item__price">300 ₽</span></div>
+          <p>Равные части эспрессо и тёплого молока, подаётся в стекле.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Латте</h3><span class="menu-item__price">340 ₽</span></div>
+          <p>На выбор коровье, овсяное, миндальное или кокосовое молоко.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu__panel" data-menu-panel="filter" role="tabpanel" hidden>
+      <div class="menu__items">
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>V60 — Génica Natural</h3><span class="menu-item__price">420 ₽</span></div>
+          <p>Эфиопия, натуральная обработка. Клубника, красное вино, шоколад.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>V60 — Huila Washed</h3><span class="menu-item__price">380 ₽</span></div>
+          <p>Колумбия, мытая обработка. Красное яблоко, коричневый сахар, чай.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Aeropress — Panama Geisha</h3><span class="menu-item__price">520 ₽</span></div>
+          <p>Панама, лот года. Жасмин, бергамот, персик, чайная текстура.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Батч-брю дня</h3><span class="menu-item__price">260 ₽</span></div>
+          <p>Готовится каждые 40 минут малыми партиями, сорт меняется еженедельно.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu__panel" data-menu-panel="signature" role="tabpanel" hidden>
+      <div class="menu__items">
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Треснутый апельсин</h3><span class="menu-item__price">380 ₽</span></div>
+          <p>Эспрессо на гейше, апельсиновое безе, дымный кленовый сироп.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Латте на камне</h3><span class="menu-item__price">350 ₽</span></div>
+          <p>Овсяное молоко собственной варки, копчёная морская соль.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Ягодный разлом</h3><span class="menu-item__price">420 ₽</span></div>
+          <p>18-часовой холодный настой, чёрносмородиновый шраб, тоник.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Обожжённая карамель</h3><span class="menu-item__price">360 ₽</span></div>
+          <p>Флэт уайт с корочкой жжёного сахара, разбиваемой ложкой.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu__panel" data-menu-panel="matcha" role="tabpanel" hidden>
+      <div class="menu__items">
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Матча и кедр</h3><span class="menu-item__price">390 ₽</span></div>
+          <p>Церемониальная матча на кедровом молоке, съедобное золото.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Матча латте классик</h3><span class="menu-item__price">330 ₽</span></div>
+          <p>Церемониальный грейд, молоко на выбор, лёд опционально.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Улун выдержанный</h3><span class="menu-item__price">280 ₽</span></div>
+          <p>Тайваньский улун, три пролива в чайнике на 400 мл.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Пуэр шу, 8 лет</h3><span class="menu-item__price">300 ₽</span></div>
+          <p>Выдержанный шу пуэр, плотный земляной профиль.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu__panel" data-menu-panel="food" role="tabpanel" hidden>
+      <div class="menu__items">
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Баскский чизкейк</h3><span class="menu-item__price">340 ₽</span></div>
+          <p>Обожжённая корочка, жидкий центр, готовим партиями по 8 штук.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Круассан с миндалём</h3><span class="menu-item__price">290 ₽</span></div>
+          <p>Двойная выпечка, миндальный крем, свежая партия дважды в день.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Овсяная гранола с йогуртом</h3><span class="menu-item__price">310 ₽</span></div>
+          <p>Гранола собственной сушки, греческий йогурт, сезонные ягоды.</p>
+        </div>
+        <div class="menu-item reveal-on-scroll">
+          <div class="menu-item__top"><h3>Тост с рикоттой</h3><span class="menu-item__price">380 ₽</span></div>
+          <p>Домашняя рикотта, мёд с пасеки в Тарусе, тимьян.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     09 — ГАЛЕРЕЯ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="gallery" id="gallery">
+  <div class="gallery__header">
+    <span class="eyebrow reveal-on-scroll">— Моменты</span>
+    <h2 class="gallery__heading reveal-on-scroll">Без фильтров и постановки.</h2>
+  </div>
+
+  <div class="gallery__grid">
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/18.jpg" alt="Латте-арт крупным планом" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/19.jpg" alt="Зерна кофе на столе для сортировки" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/20.jpg" alt="Гость кофейни за утренним разговором" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/21.jpg" alt="Флэт уайт на барной стойке" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/22.jpg" alt="Обжарщик за работой у барабана" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/23.jpg" alt="Круассаны на подносе у витрины" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/24.jpg" alt="Бариста готовит напиток вручную" loading="lazy" width="900" height="900"></figure>
+    <figure class="gallery__frame reveal-on-scroll"><img src="img/25.jpg" alt="Мешки с зелёным кофе на складе" loading="lazy" width="900" height="900"></figure>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     10 — ОТЗЫВЫ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="reviews" id="reviews">
+  <div class="reviews__header">
+    <span class="eyebrow reveal-on-scroll">— Гости говорят</span>
+    <h2 class="reviews__heading reveal-on-scroll">Без накрутки. Три цитаты, а не сто.</h2>
+  </div>
+
+  <div class="reviews__row">
+    <blockquote class="review-card review-card--offset-up reveal-on-scroll">
+      <p>«Пришла на встречу на 20 минут — осталась на два часа. Свет в зале такой, что не хочется никуда уходить.»</p>
+      <cite>Алина В. — постоянный гость с 2023</cite>
+    </blockquote>
+    <blockquote class="review-card reveal-on-scroll">
+      <p>«Впервые попробовал фильтр не «просто чёрный кофе», а с настоящим вкусом ягод. Теперь беру только V60.»</p>
+      <cite>Тимур К. — постоянный гость с 2024</cite>
+    </blockquote>
+    <blockquote class="review-card review-card--offset-down reveal-on-scroll">
+      <p>«Бариста запомнил мой заказ со второго визита. Мелочь, а именно из-за неё я возвращаюсь каждую неделю.»</p>
+      <cite>Юлия С. — постоянный гость с 2022</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     11 — CTA
+═══════════════════════════════════════════════════════════════════ -->
+<section class="cta" id="booking">
+  <div class="cta__glass-shard" aria-hidden="true"></div>
+  <div class="cta__content">
+    <span class="eyebrow eyebrow--light reveal-on-scroll">— Ждём вас</span>
+    <h2 class="cta__heading reveal-on-scroll">
+      Ваш следующий<br>
+      любимый кофе<br>
+      <span class="cta__heading-accent">уже ждёт вас.</span>
+    </h2>
+    <div class="cta__actions reveal-on-scroll">
+      <a href="#contacts" class="btn btn--primary btn--large magnetic" data-magnetic>
+        <span>Построить маршрут</span>
+      </a>
+      <a href="#" class="btn btn--ghost btn--large magnetic" data-magnetic id="bookTableBtn">
+        <span>Забронировать столик</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     12 — КОНТАКТЫ
+═══════════════════════════════════════════════════════════════════ -->
+<section class="contacts" id="contacts">
+  <div class="contacts__container">
+    <div class="contacts__info">
+      <span class="eyebrow reveal-on-scroll">— Контакты</span>
+      <h2 class="contacts__heading reveal-on-scroll">Мастерская, 14.</h2>
+
+      <dl class="contacts__list reveal-on-scroll">
+        <div class="contacts__row">
+          <dt>Адрес</dt>
+          <dd>ул. Мастерская, 14, Москва, 115035</dd>
+        </div>
+        <div class="contacts__row">
+          <dt>Часы работы</dt>
+          <dd>Пн–Пт 08:00–22:00<br>Сб–Вс 09:00–23:00</dd>
+        </div>
+        <div class="contacts__row">
+          <dt>Телефон</dt>
+          <dd><a href="tel:+74950000000">+7 (495) 000-00-00</a></dd>
+        </div>
+        <div class="contacts__row">
+          <dt>Email</dt>
+          <dd><a href="mailto:hello@oskolok.coffee">hello@oskolok.coffee</a></dd>
+        </div>
+        <div class="contacts__row">
+          <dt>Соцсети</dt>
+          <dd>
+            <a href="https://instagram.com/oskolok.coffee" target="_blank" rel="noopener">Instagram</a> ·
+            <a href="https://t.me/oskolokcoffee" target="_blank" rel="noopener">Telegram</a>
+          </dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="contacts__map reveal-on-scroll" role="img" aria-label="Карта расположения кофейни OSKOLOK на улице Мастерская, 14">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?ll=37.629700%2C55.744900&z=16&pt=37.629700,55.744900,pm2rdm"
+        width="100%" height="100%" frameborder="0" loading="lazy"
+        title="Карта расположения OSKOLOK"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <svg viewBox="0 0 48 48" class="footer__mark-glyph" aria-hidden="true">
+        <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path d="M14 26 Q24 10 34 26 Q24 36 14 26Z" fill="currentColor"/>
+      </svg>
+      <span>OSKOLOK</span>
+    </div>
+    <nav class="footer__links" aria-label="Ссылки в подвале">
+      <a href="#story">История</a>
+      <a href="#menu">Меню</a>
+      <a href="#interior">Пространство</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <p class="footer__copy">© 2026 OSKOLOK Coffee Roastery. Москва.</p>
+  </div>
+</footer>
+
+<!-- Booking modal -->
+<div class="booking-modal" id="bookingModal" aria-hidden="true">
+  <div class="booking-modal__backdrop" data-close-modal></div>
+  <div class="booking-modal__panel" role="dialog" aria-modal="true" aria-labelledby="bookingModalTitle">
+    <button class="booking-modal__close" data-close-modal aria-label="Закрыть">&times;</button>
+    <h3 id="bookingModalTitle">Забронировать столик</h3>
+    <p class="booking-modal__note">Оставьте контакт — мы подтвердим бронь в течение 15 минут в рабочее время.</p>
+    <form class="booking-modal__form" id="bookingForm">
+      <label>
+        <span>Имя</span>
+        <input type="text" name="name" required autocomplete="name">
+      </label>
+      <label>
+        <span>Телефон</span>
+        <input type="tel" name="phone" required autocomplete="tel">
+      </label>
+      <label>
+        <span>Дата и время</span>
+        <input type="datetime-local" name="datetime" required>
+      </label>
+      <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">
+        <span>Подтвердить бронь</span>
+      </button>
+    </form>
+    <p class="booking-modal__success" id="bookingSuccess" hidden>Заявка принята — мы свяжемся с вами в ближайшее время.</p>
+  </div>
+</div>
+
+<script src="coffee.js"></script>
+</body>
+</html>
